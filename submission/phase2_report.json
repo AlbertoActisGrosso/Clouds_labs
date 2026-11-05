@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 264.172,
+    "vectorized_ms": 1.202,
+    "speedup": 219.78
+  },
+  "threads": {
+    "1": 2481.241,
+    "2": 1991.445,
+    "4": 2665.508,
+    "8": 2901.134
+  },
+  "devices": {
+    "cpu_ms": 458741.9,
+    "gpu_ms": 12935.9
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.4274,
+    "param_count": 4935680
+  },
+  "sample": "\nWhat you slaid it ratchs my cannot porther.\n\nEDWARD:\nCome, Lord Hastal Englinance, pray be day,\nTlet eas me Fretal her matted friends witn.\nLast, for thou artiment mine holy matter,\nSo means and with ",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/myproject1-511508-eurecomgpt/model.safetensors"
+  }
+}
